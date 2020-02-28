@@ -1,0 +1,21 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+#main-nav{
+    background-color: #333;
+    overflow: hidden;
+}
+#main-nav a h1{
+    float: left;
+    display: block;
+    color: forestgreen;
+    text-align: center;
+    padding: 15px;
+}
+#main-nav ul a{
+    float: right;
+    display: block;
+    text-decoration: none;
+    color: forestgreen;
+    padding: 15px;
+}
