@@ -1,5 +1,15 @@
+*{
+    margin: 0;
+    padding:0;
+}
 body{
     font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    padding: 0;
+    background-color: lightslategrey;
+}
+#main-wrapper{
+    background-color: lightslategrey;
 }
 #main-nav{
     background-color: darkslategrey;
@@ -11,6 +21,10 @@ body{
     color: whitesmoke;
     text-align: center;
     padding: 15px;
+}
+#main-nav ol{
+    margin: 0;
+    padding: 0;
 }
 #main-nav ol a{
     float: right;
@@ -24,6 +38,7 @@ body{
     color: black;
 }
 #main-content-wrap{
+    background-color: lightslategrey;
     display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 5px;
