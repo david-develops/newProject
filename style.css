@@ -74,3 +74,50 @@ body{
     color: rgba(121, 119, 119, 0.6);
     font-size: 4em;
 }
+#main-content-wrap-edu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+    padding: 30px;
+}
+.logo{
+    height: auto;
+    width: 100%;
+    max-width: 200px;
+    position: relative;
+    left: 25%;
+}
+#main-content-wrap-goals{
+    text-align: center;
+    align-items: center;
+    margin:  auto;
+}
+#head-div{
+    background-color: dimgray;
+    color: floralwhite;
+}
+#super-header{
+    font-size: 5em;
+    padding: 50px;
+}
+#lower-grid-goals p{
+    padding: 40px;
+}
+#lower-grid-goals h2{
+    padding: 20px;
+    font-size: 4em;
+}
+#lower-grid-goals p{
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.75em;
+}
+#middle-div{
+    background-color: dimgray;
+    color: floralwhite;
+}
+#other-div{
+    background-color: rgb(0,0,0);
+    color: white;
+}
